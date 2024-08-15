@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+/* body{
+    background: url(../img/simpsons-pc-2kyt75wm1lmjl2l8.jpg) no-repeat;
+    background-size: cover;
+} */
+
+/* body {
+    position: relative;
+    background: none;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/simpsons-pc-2kyt75wm1lmjl2l8.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+} */
+
+header{
+    background: black;
+    width: 100%;
+    height: 100px;
+}
+
+#conteudo{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#apresentacao{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+.texto{
+    float: left;
+    width: 60%;
+    margin: 80px 30px;
+    font-size: 15pt;
+    font-family: cursive;
+    background: rgb(46, 24, 245);
+    box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.texto p{
+    margin: 20px;
+    color: white;
+}
+.img{
+    height: 400px;
+    width: 250px;
+    float: right;
+}
+header h1{
+    color: aqua;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30pt;
+    font-style: italic;
+}
+
+.figure{
+    border-radius: 30%;
+    height: 80%;
+    box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
+}
+
+
