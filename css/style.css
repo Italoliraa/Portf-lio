@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+
 /* body{
     background: url(../img/simpsons-pc-2kyt75wm1lmjl2l8.jpg) no-repeat;
     background-size: cover;
@@ -24,8 +25,7 @@ body::before {
 } */
 
 header{
-    background: black;
-    width: 100%;
+    
     height: 100px;
 }
 
@@ -45,17 +45,18 @@ header{
     margin: 80px 30px;
     font-size: 15pt;
     font-family: cursive;
-    background: rgb(46, 24, 245);
+    background: rgba(31, 203, 40, 0.603);
     box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.texto p{
+.especial{
     margin: 20px;
     color: white;
 }
+
 .img{
     height: 400px;
     width: 250px;
@@ -69,10 +70,41 @@ header h1{
     font-style: italic;
 }
 
+h1:hover{
+    color: greenyellow;
+}
+
 .figure{
     border-radius: 30%;
     height: 80%;
     box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
 }
+.figure:hover{
+    transform: scale(1.1);
+    transition: 3s;
+    border: 1px solid greenyellow;
+}
 
+.botoes{
+    margin: 0 160px;
+    width: 50%;
+}
+span{
+    margin-left: 15px;
+}
 
+.texto:hover{
+    transform: scale(1.1);
+    transition: 3s;
+    background: black;
+    border: 1px solid greenyellow;
+}
+
+main{
+    height: 350px;
+}
+
+hr{
+    background-color: aliceblue;
+    height: 2px;
+}
