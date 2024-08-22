@@ -25,8 +25,26 @@ body::before {
 } */
 
 header{
-    
     height: 100px;
+    box-shadow: 1px 1px red;
+}
+
+#navegacao{
+    width: 350px;
+    /* background: red; */
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+}
+
+#navegacao a{
+    margin: 25px;
+    text-decoration: none;
+    color: aqua;
+}
+
+#navegacao a:hover{
+    border-bottom: 1px solid red;
 }
 
 #conteudo{
@@ -62,13 +80,7 @@ header{
     width: 250px;
     float: right;
 }
-header h1{
-    color: aqua;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 30pt;
-    font-style: italic;
-}
+
 
 h1:hover{
     color: greenyellow;
@@ -107,4 +119,8 @@ main{
 hr{
     background-color: aliceblue;
     height: 2px;
+}
+
+#projetos{
+    width: 850px;
 }
