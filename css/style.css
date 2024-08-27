@@ -24,17 +24,28 @@ body::before {
     z-index: -1;
 } */
 
+/*Início do cabeçalho*/
 header{
-    height: 100px;
+    height: 180px;
     box-shadow: 1px 1px red;
+}
+#logotipo{
+    width: 450px;
+    margin-left: 180px;
+    text-align: center;
+    float: left;
+}
+.logo{
+    height: 250px;
 }
 
 #navegacao{
     width: 350px;
     /* background: red; */
-    margin-top: 30px;
+    margin-top: 95px;
     float: right;
     text-align: center;
+    margin-right: 230px;
 }
 
 #navegacao a{
@@ -47,9 +58,11 @@ header{
     border-bottom: 1px solid red;
 }
 
+/*Final do cabeçalho*/
+
 #conteudo{
     width: 60%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 #apresentacao{
