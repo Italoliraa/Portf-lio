@@ -1,3 +1,7 @@
-var nome = prompt('Digite o seu nome: ')
+var nome = prompt('Digite o seu nome:');
 
-document.write('Seja Bem-Vindo(a), ' + nome + '.')
+if (nome) {
+    document.querySelector('h1').textContent = 'Oii, ' + nome + '!';
+} else {
+    document.querySelector('h1').textContent = 'Oii, visitante!';
+}

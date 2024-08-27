@@ -2,32 +2,9 @@
     margin: 0;
 }
 
-
-/* body{
-    background: url(../img/simpsons-pc-2kyt75wm1lmjl2l8.jpg) no-repeat;
-    background-size: cover;
-} */
-
-/* body {
-    position: relative;
-    background: none;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../img/simpsons-pc-2kyt75wm1lmjl2l8.jpg) no-repeat center center;
-    background-size: cover;
-    opacity: 0.5;
-    z-index: -1;
-} */
-
 /*Início do cabeçalho*/
 header{
     height: 180px;
-    box-shadow: 1px 1px red;
 }
 #logotipo{
     width: 450px;
@@ -37,6 +14,11 @@ header{
 }
 .logo{
     height: 250px;
+}
+
+#cabecalho{
+    width: 80%;
+    margin: 0 auto;
 }
 
 #navegacao{
@@ -82,10 +64,13 @@ header{
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    color: white;
+}
+h1{
+    text-align: center;
 }
 .especial{
     margin: 20px;
-    color: white;
 }
 
 .img{
@@ -94,22 +79,22 @@ header{
     float: right;
 }
 
-.figure{
+.italo{
     border-radius: 30%;
     height: 80%;
     box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
 }
-.figure:hover{
+.italo:hover{
     transform: scale(1.1);
     transition: 3s;
     border: 1px solid greenyellow;
 }
 
-.botoes{
+#botoes{
     margin: 0 auto;
     width: 50%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 span{
@@ -132,11 +117,9 @@ hr{
     height: 2px;
 }
 
-
 /*Início dos Projetos*/
 #projetos{
     width: 60%;
-    border: 1px solid rgb(37, 238, 94);
     margin: 0 auto;
     margin-bottom: 550px;
 }
@@ -146,16 +129,19 @@ hr{
 }
 .especial1{
     float: left;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
 }
 .especial2{
     float: right;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(73, 69, 69);
 }
 /*Final dos projetos*/
 
 /*Início do footer*/
 footer{
-    height: 300px;
+    height: 150px;
     background: white;
-    margin-bottom: 0;
 }
 /*Final do footer*/
